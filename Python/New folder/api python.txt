@@ -1,0 +1,42 @@
+Application Programming Interface (API)-
+http status code
+Will get response in JSON is like dictionary
+XML
+
+source address and destination address
+
+query parameters
+
+pip install requests
+
+pip install pandas
+
+generate api keys
+
+google cloud platform
+
+#create csv files for four coloumns
+
+student id p c M branch
+house prices large data size
+
+assignments(twitter api, bitcoin,etc)
+
+pandas + assignment
+
+stock market prediction using ML
+
+exception handling
+
+PEP 8, global/local variable
+
+static methods,
+
+class methods
+
+lambda fuctions
+
+assignments
+
+
+
