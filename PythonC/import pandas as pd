@@ -1,0 +1,21 @@
+import pandas as pd
+data = pd.read_csv('studentid.csv')
+#print(data)
+#print(type(data))
+#print(data.columns.values)
+#print(data['Studentid'])
+#print(data,'\n,'-'*100)
+print(data[['Studentid','Chemistry''Physics']])
+#data['Total'] = data['Maths']+data['Physics']+data['Chemistry']
+#print(data.describe())
+#data = data.dropna()
+data = data.fillna(0)
+print(data)
+#print(data[data['Total'] > 200])
+#total_more_than_200 = data[data['Total'] > 200]
+#print(data[(data['Maths']>80) & (data['Physics']>80)])
+#print(total_more_than_200)
+#print(data['Student ID'].tolist())
+print(data['Branch'])
+data = data.drop(['Physics','Maths'],axis=1)
+#print
